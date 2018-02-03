@@ -31,7 +31,7 @@ def hello_world():
     return render_template('form.html', hint=hint)
 
 
-
+# page with results
 @app.route('/results', methods=['GET'])
 def results():
 
